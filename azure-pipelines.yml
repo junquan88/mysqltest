@@ -19,14 +19,3 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'git clone https://github.com/junquan88/mysqltest C:\GithubLocalRepo'
-- task: CmdLine@2
-  inputs:
-    script: 'dbforgemysql.com /execute /connection:"User Id=%jqtan%;password=%asdf1234%;Host=%localhost%" /inputfile "C- task: MysqlDeploymentOnMachineGroup@1
-  inputs:
-    TaskNameSelector: 'SqlTaskFile'
-    SqlFile: 'C:\GithubLocalRepo\*.sql'
-    ServerName: 'localhost'
-    DatabaseName: 'mysqlbuild'
-    SqlUsername: 'jqtan'
-    SqlPassword: 'asdf1234'
-    
