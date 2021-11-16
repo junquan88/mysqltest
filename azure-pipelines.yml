@@ -30,6 +30,3 @@ steps:
     SqlUsername: 'jqtan'
     SqlPassword: 'asdf1234'
     
-    - task: CmdLine@2
-      inputs:
-        script: '"C:\Program Files\Devart\dbForge Studio for MySQL\dbforgemysql.com" /schemacompare /source connection:"User Id=jqtan;Password=asdf1234;Host=localhost;Database=mysql;Character Set=utf8" /target connection:"User Id=jqtan;Password=asdf1234;Host=localhost;Database=mysqlquan;Character Set=utf8" /report:"C:\GithubLocalRepo\compare.html" /reportformat:html /includeobjects:All'
