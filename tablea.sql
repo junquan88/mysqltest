@@ -1,4 +1,4 @@
-CREATE TABLE mysqlquan.tablea (
+CREATE TABLE tablea (
   id int DEFAULT NULL,
   name varchar(50) DEFAULT NULL,
   value varchar(255) DEFAULT NULL
