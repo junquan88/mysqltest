@@ -18,5 +18,5 @@ steps:
     echo See https://aka.ms/yaml
 - task: CmdLine@2
   inputs:
-    script: 'git clone https://github.com/junquan88/mysqltest C:\GithubLocalRepo\mysqltest\mysqltest'
+    script: 'git clone https://github.com/junquan88/mysqltest.git C:\GithubLocalRepo\mysqltest\mysqltest'
   displayName: 'clone repo to folder'
